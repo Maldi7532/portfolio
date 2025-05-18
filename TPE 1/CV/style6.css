@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    background-color : white; 
+}
+
+.personnel{
+    color: rgba(255, 255, 255, 0.733);
+    background-color: rgba(0, 0, 0, 0.658);
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.sous-profil img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-top-left-radius: 0;
+    
+}
+
+.corp{
+    background-color: rgba(255, 255, 255, 0.616);
+    width: 60%;
+    padding: 10px;margin: 10px;
+    border-radius: 10px;
+
+}
+.entente h1{
+    background: rgba(255, 0, 0, 0.637);
+    border-radius: 100px ;
+    font-size: 3rem;
+    padding: 4px;
+    text-align: center;
+    font-weight: bold;
+    color: rgba(0, 0, 255, 0.534);
+    margin-top: 1px;
+}
+.entente h2{
+    color: red;
+    background-color: rgba(0, 0, 255, 0.493);
+    padding: 20px;
+    border-radius: 10px 100px 100px 10px;
+    border-radius: 60%;
+    text-align: center;
+    
+}
+
+.sous-sous-profil{
+    display: flex;
+    align-items: center;
+}
+.sous-sous-profil img{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}

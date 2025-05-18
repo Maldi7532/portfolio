@@ -1,0 +1,41 @@
+body{
+    background: url(./bg2.png)center/cover;
+}
+.entete h1{
+    background: blue;
+    color: red;
+    text-align: center;
+    border-radius: 10px 70px 10px 70px;
+    align-items: center;
+    box-shadow: -20px 12px 13px 1px;
+    margin-bottom: 30px;
+}
+.entete h2{
+    text-align: center;
+    color: blue;
+}
+
+.sous-flex{
+    display: flex;
+    background-color: rgba(0, 0, 255, 0.507);
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 10px;
+    border-radius: 10px;
+    
+}
+.sous-flex p{
+    background-color: rgba(0, 0, 255, 0.336);
+    text-align: center;
+    font-weight: bold;
+    padding: 3px;
+}
+.sous-flex img{
+    padding: 20px;
+    height: 90px;
+    width: 180px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+
+}

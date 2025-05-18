@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    
+}
+.flex{
+    display: flex;
+    background-color: rgba(255, 0, 0, 0.601);
+    width: 100%;
+    border-radius: 10px 40px 10px 40px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+.flex ul{
+    display: flex;
+    padding: 10px;
+    margin: 4px;
+    width: 90%;
+    list-style-type: none;
+    background-color: none;
+    border: none;
+    
+    
+}
+.flex ul li{
+    margin:5px;
+    padding: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.flex ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    border: none;
+    list-style-type: none;
+    margin: auto auto;
+    
+}

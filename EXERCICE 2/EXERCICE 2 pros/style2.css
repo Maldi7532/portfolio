@@ -1,0 +1,97 @@
+body{
+    background-color: aquamarine;
+    height: 500px;
+    
+    
+}
+
+.list{
+    position: sticky;
+    display: flex;
+    top: 0;
+    left: 0;
+    background: url(./image1.jpg)center/cover;
+    border-radius: 40px;
+    height: 400px;
+    text-align: center;
+    margin-bottom: 20px;
+    justify-items: center;
+    justify-content: center;     
+}
+
+.list ul{
+    display: flex;
+    padding: 10px 40px;
+    margin: 20px 30px;
+    
+}
+.list ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.list ul li a{
+    text-decoration: none;
+    background-color: rgba(42, 165, 83, 0.548);
+    border-radius: 10px;
+    color: blue;
+    padding: 15px;
+    display: block;
+}
+.text{
+    background-color: black;
+    color: aliceblue;
+    height: 200px;
+    bottom: 30px;
+}
+.sous-list{
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: max-content;
+
+}
+.sous-list ul{
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.sous-list ul li a{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.392);
+    color: aliceblue;
+    padding: 10px;
+    display: block;
+}
+.sous-sous-list{
+    display: none;
+    position: absolute;
+    top: 15px;
+    left: 85px;
+    width: max-content;
+}
+.sous-sous-list ul li a{
+    text-decoration: none;
+    background-color: rgba(255, 99, 71, 0.529);
+    padding: 10px;
+    display: block;
+}
+.has-sous-list{
+    position: relative;
+}
+
+.has-has-sous-list{
+    position: relative;
+
+}
+
+
+.has-sous-list:hover .sous-list{
+    display: block;
+}
+
+.has-has-sous-list:hover .sous-sous-list{
+    display: block;
+}
