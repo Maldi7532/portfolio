@@ -1,5 +1,5 @@
 body{
-    background: url(./bg2.png)center/cover;
+    background: url(./pont.png)center/cover;
 }
 .entete h1{
     background: blue;
@@ -17,18 +17,20 @@ body{
 
 .sous-flex{
     display: flex;
-    background-color: rgba(0, 0, 255, 0.507);
+    background-color: rgba(0, 0, 255, 0.315);
     padding: 10px;
     justify-content: space-between;
     border-radius: 10px;
     border-radius: 10px;
+    color: white;
     
 }
 .sous-flex p{
     background-color: rgba(0, 0, 255, 0.336);
     text-align: center;
     font-weight: bold;
-    padding: 3px;
+    padding: 9px;
+    border-radius: 20px;
 }
 .sous-flex img{
     padding: 20px;
@@ -37,5 +39,37 @@ body{
     justify-content: space-between;
     align-items: center;
     border-radius: 50px;
+
+}
+
+.fin h1{
+    background: blue;
+    color: red;
+    text-align: center;
+    border-radius: 10px 70px 10px 70px;
+    align-items: center;
+    box-shadow: -20px 12px 13px 1px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+footer{
+    width: 100%;
+    background-color: rgba(0, 102, 255, 0.578);
+    color: beige;
+    margin-top: 50px;
+}
+footer p {
+    font-style: 1.2rem;
+    text-align: center;  
+    padding: 15px 0;
+    
+}
+
+footer p a {
+    text-decoration: none;
+    color: aquamarine;
+    font-weight: bold ;
+
 
 }
