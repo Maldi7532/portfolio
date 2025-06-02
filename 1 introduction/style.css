@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: linear-gradient(90deg,rgba(255, 0, 0, 0.644),rgb(0, 0, 0), rgba(55, 6, 233, 0.699),purple, rgba(255, 255, 0, 0.589), white,rgba(0, 0, 0, 0.699));
+    animation: changecolor 9s infinite alternate; */
+    background: url(./img3.png)center/cover;
+    height: 800px;
+    text-align: center;
+}
+.tete{
+    /* background: turquoise; */
+    margin-top: 100px;
+    margin-bottom: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    justify-content: start;
+    /* margin-left: 100px; */
+    /* max-width: 500px; */
+
+    
+}
+.tete h1{
+    text-transform: uppercase;
+    margin: 10px;
+    text-shadow:  -2px 2px 5px red, 2px -2px 2px blue, -3px 2px 7px white;
+}
+.tete :hover {
+    text-decoration: underline;
+}
+.tete img{
+    max-width: 300px;
+    width: 50%;
+    max-height: 250px;
+    border-radius: 40%;
+    border: 10px solid rgba(0, 0, 255, 0.226);
+    border: 10px solid rgba(255, 255, 255, 0.007);
+    box-shadow: -19px -9px 8px 10px rgb(46, 146, 46);
+
+    
+}
+#defile{
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+
+
+
+.flex nav ul{
+    display: flex;
+    margin: 10px;
+    border-radius: 30px;
+    background: rgba(255, 255, 0, 0.527);
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+    max-height: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex nav ul li {
+    background: rgba(255, 0, 0, 0.5);
+    margin: 4px;
+    justify-content: start;
+    height: 50px;
+    width: 120px;
+    border-radius: 20px;
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+
+
+}
+.flex nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+footer{
+    background: rgba(0, 0, 0, 0.411);
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+
+
+.logo ul{
+    /* background: rgba(172, 255, 47, 0.199); */
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    margin: 20px;
+    list-style-type: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.logo ul li {
+    padding: 10px;
+}
+.logo ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.fin p{
+    padding: 10px;
+    background-color: rgb(50, 50, 216);
+    margin: 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.logo ul li a:hover{
+    color: red;
+    transform: scale-x(1.8);
+}
+.logo ul li a:hover  a{
+    transform: scale(1.5);
+} 

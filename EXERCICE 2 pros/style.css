@@ -12,11 +12,13 @@ body{
     left: 0;
     background: url(./image1.jpg)center/cover;
     border-radius: 40px;
-    height: 400px;
+    max-height: 500px;
+    height: 40%;
     text-align: center;
     margin-bottom: 20px;
     justify-items: center;
-    justify-content: center;     
+    justify-content: center;    
+    padding: 5px; 
 }
 
 .list ul{
@@ -28,6 +30,7 @@ body{
 .list ul li{
     list-style: none;
     text-decoration: none;
+    margin: 9px;
 }
 .list ul li a{
     text-decoration: none;
@@ -38,7 +41,10 @@ body{
     display: block;
 }
 .text{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.671);
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
     color: aliceblue;
     height: 200px;
     bottom: 30px;
@@ -94,4 +100,9 @@ body{
 
 .has-has-sous-list:hover .sous-sous-list{
     display: block;
+}
+
+#bal{
+    color: red;
+
 }
